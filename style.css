@@ -1,0 +1,297 @@
+@import url('http://fonts.cdnfonts.com/css/organic-brand');
+
+*{
+
+    font-family: 'Organic Brand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+html,body{
+    margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+.head{
+    background-image: linear-gradient(rgba(31, 30, 30, 0.247),rgba(58, 57, 57, 0.185)),url('images/vegetables\ and\ friuts.jpg');
+    height: 100vh;
+    background-position: center;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    min-width: 100%;
+}
+.head .header .menu{
+    padding: 1rem 0;
+    position: relative;
+}
+.head .header .menu .navbar-nav .nav-item{
+    padding: 0 1.5rem;
+}
+.head .header .menu .navbar-nav .nav-item a{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+.head .header .menu .navbar-nav .nav-item a:hover{
+    color: #ffc107;
+    transform: scale(1.1);
+}
+.head .head-content{
+    padding: 10rem 2rem;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.head .head-content h1{
+  text-transform: uppercase; 
+  font: normal 600 40px/55px 'Organic Brand';
+  color: white;
+}
+.head .head-content h1 b{
+    color: #ffc107;
+}
+.head .head-content p{
+    font: normal 200 15px/20px 'Organic Brand';
+    color: rgba(245, 245, 245, 0.671);
+    text-transform: capitalize;
+}
+.head .head-content .CTA .btn{
+    margin-top: .5rem;
+    background: white;
+    padding: .7rem 3rem;
+    border-radius: .5rem;
+    box-shadow: 0rem  1rem 2rem 1.5rem rgba(0, 0, 0, 0.2 );
+    border: 1px solid #333;
+}
+.head .head-content .CTA .btn{
+    color: black;
+    text-decoration: none;
+}
+.head .head-content .CTA .btn:hover{
+    background: #ffc107;
+    border: 1px solid white;
+    transform: scale(1.1);
+    color: #fff;
+    z-index: 1;
+}
+
+
+/*intersection*/
+.intersection{
+    text-align: center;
+    padding: 3rem;
+    background-color: #d08609;
+    left: 0;
+    right: 0;
+}
+.intersection  h1{
+    text-transform: uppercase;
+    font: normal 600 7rem/4rem 'Roboto';
+    letter-spacing: 5rem;
+    color: rgba(255, 255, 255, 0.103);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+}
+.intersection h2{
+    margin-top: -5rem;
+    font: normal 500 4rem/6rem 'Organic Brand';
+    color: #fff;
+}
+.intersection p{
+    color: whitesmoke;
+}
+
+/*s-products*/
+
+.s-products .box-container{
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.s-products .box-container  .row .box{
+    overflow: hidden;
+    flex: 1 1 20rem;
+    position: relative;
+    width: 100%;
+    
+}
+.s-products .box-container .row .box img{
+    height: 250px;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+.s-products .box-container .row .box .content{
+    padding: .5rem .5rem;
+    background-color: #d08609;
+    color: #fff;
+    text-align: center;
+}
+.s-products .box-container .row .box .content p{
+    font-size: 10px;
+}
+.s-products .box-container .row .image{
+    transform: scale(1.0);
+    box-shadow: 0rem  1rem 2rem 1.5rem rgba(0, 0, 0, 0.2 );
+    border: 1px solid transparent;
+    border-radius: 2rem 2rem 0 0;
+}
+
+/*middle*/
+.middle{
+    background-image: url('images/middle\ background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 6rem;
+}
+.middle .container .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5rem 0;
+    gap: 1.5rem;
+    left: 0;
+    right: 0;
+}
+.middle .container .box-container .box{
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.middle .container .box-container .box .content-box{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(31, 30, 30, 0.096),rgba(58, 57, 57, 0.082)), url('images/nature.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 1.5rem;
+    color: #971009;
+    text-align: center;
+    color: #fff;
+    
+}
+
+/*products*/
+.products .box-container{
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.products .box-container  .row .box{
+    overflow: hidden;
+    flex: 1 1 20rem;
+    position: relative;
+    width: 100%;
+    
+}
+.products .box-container .row .box img{
+    height: 250px;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+.products .box-container .row .box .content{
+    padding: .5rem .5rem;
+    background-color: #d08609;
+    color: #fff;
+    text-align: center;
+}
+.products .box-container .row .box .content p{
+    font-size: 10px;
+}
+.products .box-container .row .image{
+    transform: scale(1.0);
+    box-shadow: 0rem  1rem 2rem 1.5rem rgba(0, 0, 0, 0.2 );
+    border: 1px solid transparent;
+    border-radius: 2rem 2rem 0 0;
+}
+
+/*footer*/
+.footer{
+	background-color: black;
+	text-align: center;
+}
+
+.footer .share{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	justify-content: center;
+}
+.footer .credit{
+	padding: 2rem 1rem;
+	color: white;
+	font-weight: normal;
+    font-size: 20px
+}
+.footer .credit span{
+	color: red;
+}
+.footer .btn{
+	margin-top: 3rem;
+    background-color: white;
+}
+
+.footer .btn:hover{
+	color: white;
+    background-color: #d08609;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+	.head{
+        font-size: 50%;
+    }
+	
+
+}
+@media(max-width: 700px){
+	html{
+		font-size: 43%;
+	}
+}
