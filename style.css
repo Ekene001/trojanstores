@@ -1,15 +1,14 @@
-@import url('http://fonts.cdnfonts.com/css/organic-brand');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600;500;400;300;200;100&display=swap');
 
 *{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
 
-    font-family: 'Organic Brand', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    
 }
 html,body{
     margin: 0;
@@ -51,14 +50,14 @@ html,body{
 }
 .head .head-content h1{
   text-transform: uppercase; 
-  font: normal 600 40px/55px 'Organic Brand';
+  font: normal 600 40px/55px;
   color: white;
 }
 .head .head-content h1 b{
     color: #ffc107;
 }
 .head .head-content p{
-    font: normal 200 15px/20px 'Organic Brand';
+    font: normal 200 15px/20px;
     color: rgba(245, 245, 245, 0.671);
     text-transform: capitalize;
 }
@@ -93,7 +92,7 @@ html,body{
 }
 .intersection  h1{
     text-transform: uppercase;
-    font: normal 600 7rem/4rem 'Roboto';
+    font: normal 600 7rem/4rem;
     letter-spacing: 5rem;
     color: rgba(255, 255, 255, 0.103);
     -webkit-text-fill-color: transparent;
@@ -101,7 +100,7 @@ html,body{
 }
 .intersection h2{
     margin-top: -5rem;
-    font: normal 500 4rem/6rem 'Organic Brand';
+    font: normal 500 4rem/6rem;
     color: #fff;
 }
 .intersection p{
