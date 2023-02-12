@@ -1,3 +1,3 @@
 # trojanstores
 
-click to visit website: https://github.com/Ekene001/trojanstores.git
+click to visit website: https://ekene001.github.io/trojanstores/
